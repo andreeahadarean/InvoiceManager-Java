@@ -22,4 +22,24 @@ public class DecisionView extends JFrame {
     public void addButtonActionListener(ActionListener a) {
         doneButton.addActionListener(a);
     }
+
+    public JCheckBox getViewOrderedInvoiceListCheckBox() {
+        return viewOrderedInvoiceListCheckBox;
+    }
+
+    public JCheckBox getDuplicateAnInvoiceCheckBox() {
+        return duplicateAnInvoiceCheckBox;
+    }
+
+    public JCheckBox getSearchListByTextCheckBox() {
+        return searchListByTextCheckBox;
+    }
+
+    public JCheckBox getMarkAnInvoiceAsCheckBox() {
+        return markAnInvoiceAsCheckBox;
+    }
+
+    public JCheckBox getPersistCurrentDataCheckBox() {
+        return persistCurrentDataCheckBox;
+    }
 }

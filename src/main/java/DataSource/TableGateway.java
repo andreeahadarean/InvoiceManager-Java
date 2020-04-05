@@ -5,7 +5,6 @@ import java.lang.reflect.*;
 import java.sql.*;
 import java.sql.Statement;
 import java.util.*;
-import java.util.Date;
 
 import Connection.DBConnection;
 
@@ -112,14 +111,14 @@ public class TableGateway<T> {
         return sb.toString();
     }
 
-    public void update(String col, String cond, String val1, int val2) {
+    public void update(String col, String cond, int val1, int val2) {
         Connection connection = null;
         PreparedStatement statement = null;
         String query = createUpdateQuery(col, cond);
         try {
             connection = DBConnection.connect();
             statement = connection.prepareStatement(query);
-            statement.setString(1, val1);
+            statement.setInt(1, val1);
             statement.setInt(2, val2);
             statement.executeUpdate();
         } catch (SQLException e) {

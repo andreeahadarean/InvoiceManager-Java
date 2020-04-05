@@ -7,6 +7,7 @@ import Connection.DBConnection;
 import java.sql.PreparedStatement;
 
 public class CompanyGateway extends TableGateway<Company> {
+
     private String createInsertQuery() {
         StringBuilder sb = new StringBuilder();
         sb.append("INSERT INTO ");

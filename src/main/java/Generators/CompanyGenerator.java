@@ -1,12 +1,12 @@
 package Generators;
 
 import Model.Company;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class CompanyGenerator {
+
     private static final String[] names = {"Romanian", "European", "Italian", "Food", "Electricity", "Incorporated", "Motion", "Premium"};
 
     private List<String> generateCompanyWithTwoNames(String[] companyNames) {

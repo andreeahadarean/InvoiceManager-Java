@@ -27,7 +27,11 @@ public class InvoiceGateway extends TableGateway<Invoice> {
             statement.setFloat(1, total);
             statement.setString(2, seller);
             statement.setString(3, products);
-            statement.setDate(4, new java.sql.Date(payDate.getTime()));
+            if(payDate == null) {
+                statement.setDate(4, null);
+            } else {
+                statement.setDate(4, new java.sql.Date(payDate.getTime()));
+            }
             statement.setInt(5, id);
             statement.setBoolean(6, duplicate);
             statement.setDate(7, new java.sql.Date(dueDate.getTime()));

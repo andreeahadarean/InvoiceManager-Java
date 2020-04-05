@@ -89,29 +89,27 @@ public class Invoice {
         return remainingDays;
     }
 
-
-
-    public void displayInvoice() {
+    public String displayInvoice() {
         StringBuilder sb = new StringBuilder();
         sb.append("Invoice " + id);
         sb.append(" from seller " + seller);
         sb.append(" with due date " + dueDate.toString());
         if(payDate == null) {
-            sb.append(" to be paied in " + remainingDays + " days,");
-        } else sb.append(" paied on " + payDate.toString());
+            sb.append(" to be paid in " + remainingDays + " days,");
+        } else sb.append(" paid on " + payDate.toString());
         sb.append(" containing ");
         sb.append(products);
         sb.append(" with a total of " + total);
         if(duplicate == false) {
             sb.append(", not duplicated.");
         } else sb.append(", duplicated.");
-        System.out.println(sb.toString());
+        return sb.toString();
     }
 
     @Override
     public String toString() {
         return "Invoice " + id + " from " + seller + " with products " + products + " with a total of " + total +
-                " due on " + dueDate + " paied on " + payDate + " ,duplicate " + duplicate + ".\n";
+                " due on " + dueDate + " paid on " + payDate + " ,duplicate " + duplicate + ".\n";
     }
 
     @Override

@@ -3,7 +3,6 @@ package Generators;
 import Model.Company;
 import Model.Invoice;
 import Model.Product;
-
 import java.util.*;
 
 public class InvoiceGenerator {

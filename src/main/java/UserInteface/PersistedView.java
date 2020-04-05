@@ -2,11 +2,11 @@ package UserInteface;
 
 import javax.swing.*;
 
-public class OrderedListView extends JFrame {
+public class PersistedView extends JFrame {
     private JPanel panel;
     private JTextArea textArea1;
 
-    public OrderedListView () {
+    public PersistedView () {
         this.setSize(1000, 500);
         this.add(panel);
         this.setLocationRelativeTo(null);

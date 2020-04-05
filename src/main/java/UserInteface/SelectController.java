@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SelectController {
+
     private SelectView selectView;
-    private DecisionView decisionView = new DecisionView();
 
     public SelectController(SelectView selectView) {
         this.selectView = selectView;
@@ -66,8 +66,9 @@ public class SelectController {
                 int nrOfProducts = Integer.parseInt(selectView.getTextField3().getText());
                 productList = productGenerator.generateProducts(nrOfProducts);
             }
+            DecisionView decisionView = new DecisionView();
             decisionView.setVisible(true);
-            DecisionController decisionController = new DecisionController(decisionView, companyList, productList, invoiceList);
+            DecisionController decisionController = new DecisionController(decisionView, invoiceList, companyList, productList);
             selectView.setVisible(false);
         }
     }

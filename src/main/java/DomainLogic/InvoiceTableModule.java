@@ -2,7 +2,6 @@ package DomainLogic;
 
 import DataSource.InvoiceGateway;
 import Model.Invoice;
-
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -28,6 +27,10 @@ public class InvoiceTableModule {
         return invoices;
     }
 
+    public Invoice getCertainInvoice(int id) {
+        return invoiceGateway.findById(id);
+    }
+
     public void addDuplicateInvoice(boolean persisted, Invoice invoice){
         if(persisted == true) {
             Invoice foundInvoice = invoiceGateway.findById(invoice.getId());
@@ -45,7 +48,7 @@ public class InvoiceTableModule {
         }
     }
 
-    public void orderInvoices(boolean persisted) {
+    public List<Invoice> orderInvoices(boolean persisted) {
         List<Invoice> invoices = new ArrayList<>();
         if(persisted == true) {
             invoices = invoiceGateway.selectAll();
@@ -83,8 +86,7 @@ public class InvoiceTableModule {
         List<Invoice> orderedList = new ArrayList<>();
         orderedList.addAll(unpaiedInvoices);
         orderedList.addAll(paiedInvoices);
-        for(Invoice i : orderedList)
-            i.displayInvoice();
+        return orderedList;
     }
 
     public void payInvoice(boolean persistent, int invoiceNumber) {
@@ -92,6 +94,7 @@ public class InvoiceTableModule {
             Invoice invoice = invoiceGateway.findById(invoiceNumber);
             if(invoice.getPayDate() == null) {
                 invoiceGateway.update("\"payDate\"", "id", new Date(), invoiceNumber);
+                invoiceGateway.update("\"remainingDays\"", "id", 0, invoiceNumber);
             }
         } else {
             for (Invoice i : generatedInvoices) {
@@ -107,7 +110,7 @@ public class InvoiceTableModule {
         }
     }
 
-    public void testSearch(boolean persistent, String text) {
+    public List<String> testSearch(boolean persistent, String text) {
         List<Invoice> invoices;
         if(persistent == true) {
             invoices = invoiceGateway.selectAll();
@@ -149,6 +152,7 @@ public class InvoiceTableModule {
         filtered.addAll(secondCompany);
         filtered.addAll(restCompany);
         filtered.addAll(products);
+        List<String> toBeDisplayed = new ArrayList<String>();
         for(int i = 0; i < 10 && i < filtered.size(); i++) {
             StringBuilder sb = new StringBuilder();
             sb.append("Seller " + filtered.get(i).getSeller());
@@ -156,8 +160,10 @@ public class InvoiceTableModule {
             sb.append(filtered.get(i).getPayDate() != null ? " and pay date " + filtered.get(i).getPayDate().toString() : " ");
             sb.append(" with products ");
             sb.append(filtered.get(i).getProducts());
-            System.out.println(sb.toString());
+            sb.append("\n");
+            toBeDisplayed.add(sb.toString());
         }
+        return toBeDisplayed;
     }
 
     public void persistData() {

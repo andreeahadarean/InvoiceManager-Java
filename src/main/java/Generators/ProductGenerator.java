@@ -1,7 +1,6 @@
 package Generators;
 
 import Model.Product;
-
 import java.util.*;
 
 public class ProductGenerator {
