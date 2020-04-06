@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85cd3127-81a5-4706-b22e-b98d76b6e9bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserInteface/PersistedView.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserInteface/PersistedView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataSource/CompanyGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataSource/CompanyGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataSource/InvoiceGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataSource/InvoiceGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DataSource/TableGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DataSource/TableGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DomainLogic/CompanyTableModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DomainLogic/CompanyTableModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DomainLogic/InvoiceTableModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DomainLogic/InvoiceTableModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DomainLogic/ProductTableModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DomainLogic/ProductTableModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generators/CompanyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generators/CompanyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generators/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generators/InvoiceGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Generators/ProductGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Generators/ProductGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/DecisionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/DecisionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/DecisionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/DecisionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/DuplicateView.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/DuplicateView.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/DuplicateView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/DuplicateView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/OpenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/OpenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/OrderedListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/OrderedListView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/PayView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/PayView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/SearchView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/SearchView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UserInteface/SelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserInteface/SelectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DataSource/TableGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DataSource/TableGateway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DomainLogic/InvoiceTableModule$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DomainLogic/InvoiceTableModule$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DomainLogic/InvoiceTableModule$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DomainLogic/InvoiceTableModule$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DomainLogic/InvoiceTableModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DomainLogic/InvoiceTableModule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Model/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Model/Invoice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/DecisionController$DecisionActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/DecisionController$DecisionActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/DecisionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/DecisionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/DecisionView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/DecisionView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/DuplicateView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/DuplicateView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/OpenController$OpenActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/OpenController$OpenActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/OpenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/OpenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/OrderedListView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/OrderedListView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/PayView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/PayView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/SearchView.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/SearchView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/SelectController$SelectActionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/SelectController$SelectActionListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UserInteface/SelectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserInteface/SelectController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +81,7 @@
       <updated>1586106579818</updated>
       <workItem from="1586106582276" duration="14227000" />
       <workItem from="1586120948493" duration="3820000" />
+      <workItem from="1586160766275" duration="576000" />
     </task>
     <servers />
   </component>
@@ -137,22 +101,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1586118051742" />
-    <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1586124838370">
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom" timestamp="1586161342677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586124838370" />
-    <state width="1493" height="163" key="GridCell.Tab.0.center" timestamp="1586124838370">
+    <state width="1493" height="163" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1586161342677" />
+    <state width="1493" height="163" key="GridCell.Tab.0.center" timestamp="1586161342677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586124838370" />
-    <state width="1493" height="163" key="GridCell.Tab.0.left" timestamp="1586124838370">
+    <state width="1493" height="163" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1586161342677" />
+    <state width="1493" height="163" key="GridCell.Tab.0.left" timestamp="1586161342677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586124838370" />
-    <state width="1493" height="163" key="GridCell.Tab.0.right" timestamp="1586124838370">
+    <state width="1493" height="163" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1586161342677" />
+    <state width="1493" height="163" key="GridCell.Tab.0.right" timestamp="1586161342677">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="163" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586124838370" />
+    <state width="1493" height="163" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1586161342677" />
     <state width="1493" height="121" key="GridCell.Tab.1.bottom" timestamp="1586120856454">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -173,10 +137,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="555" y="70" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1586106985491" />
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586120952266">
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1586162124907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586120952266" />
+    <state x="465" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586162124907" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1586119645196">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
